@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GoBangGameSystem:war exploded">
+    <output-path>$PROJECT_DIR$/../GoBangGameSystem/out/artifacts/GoBangGameSystem_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="GoBangGameSystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GoBangGameSystem" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
