@@ -5,8 +5,9 @@ import java.util.Set;
 
 public class ChessBoard {
     private final String size = "15*15";
-    private HashMap<String, HashMap<Integer, Player>> chessboard;
-    private HashMap<Integer,Player> stepMap;
+    private HashMap<String, HashMap<Integer, Player>> chessboard = new HashMap<>();
+    /////* 左右的坐标系和玩家实例.
+    private HashMap<Integer,Player> stepMap = new HashMap<>();
 
 
     public String getSize() {
